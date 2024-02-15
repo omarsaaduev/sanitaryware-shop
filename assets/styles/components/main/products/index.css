@@ -1,0 +1,19 @@
+.products {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.products__title {
+  color: rgb(21, 23, 22);
+  font-family: Orenburg;
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.products__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */

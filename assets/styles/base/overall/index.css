@@ -1,0 +1,15 @@
+body {
+  font-family: PT Sans;
+  font-size: 18px;
+  color: #bebebe;
+  background-color: rgba(6, 7, 7, 0.8509803922);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=index.css.map */

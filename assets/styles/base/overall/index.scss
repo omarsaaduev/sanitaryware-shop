@@ -1,0 +1,19 @@
+body {
+    font-family: var(--ff-default);
+    font-size: var(--fz-default);
+    color: var(--color-default);
+    background-color: var(--bg-default);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 120px;
+    overflow: hidden;
+
+    @include _desktop {
+        padding: 0 70px;
+    }
+    @include _mobile {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,19 @@
+/////////   Шрифты   //////////
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/orenburg");
+
+/////////   Базовые стили   /////////////
+@import "./base/reset/reset.css";
+@import "./base/mixins/mixin.scss";
+@import "./base/overall/index.scss";
+@import "./base/vars/vars.scss";
+
+/////////   Компоненты    /////////////
+@import "./components/header/index.scss";
+@import "./components/main/about/index.scss";
+@import "./components/main/products/index.scss";
+@import "./components/main/collection/index.scss";
+@import "./components/main/akcions/index.scss";
+@import "./components/main/advantages/index.scss";
+@import "./components/main/orange/index.scss";
+@import "./components/footer/index.scss";

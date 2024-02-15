@@ -1,0 +1,26 @@
+@mixin _desktop {
+    @media (max-width: 1420px) {
+        @content;
+    }
+}
+@mixin _tablet {
+    @media (max-width: 1100px) {
+        @content;
+    }
+}
+@mixin _phablet {
+    @media (max-width: 840px) {
+        @content;
+    }
+}
+@mixin _mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

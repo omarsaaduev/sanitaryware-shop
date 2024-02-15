@@ -1,0 +1,64 @@
+.footer {
+  color: rgb(190, 190, 190);
+  font-family: PT Sans;
+  font-size: 16px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 35px;
+}
+.footer__nav-list {
+  align-items: end;
+  -moz-column-count: 2;
+       column-count: 2;
+  gap: 0;
+}
+.footer__nav-list li + li {
+  margin-top: 20px;
+}
+.footer__nav-list img {
+  padding-top: 4px;
+  margin-right: 12px;
+}
+.footer__contacts span {
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.footer__email {
+  margin-bottom: 24px;
+}
+.footer__phone img {
+  padding-left: 4px;
+}
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-family: Orenburg;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer__info {
+  margin-top: 100px;
+}
+.footer__info p {
+  color: rgb(116, 116, 116);
+  font-family: Roboto;
+  font-size: 12px;
+}
+.footer__developer {
+  margin-left: 24px;
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 2px;
+  padding: 8px 12px;
+}
+.footer__line {
+  height: 1px;
+  background-color: rgb(73, 73, 73);
+  margin-top: 24px;
+}/*# sourceMappingURL=index.css.map */
